@@ -1,0 +1,13 @@
+[package]
+name = "yarve"
+version = "0.1.0"
+authors = ["n01e0 <reoshiseki@gmail.com>"]
+edition = "2018"
+description = "Yet Another RISC-V Emulator"
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
