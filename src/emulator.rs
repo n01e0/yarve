@@ -3,6 +3,7 @@ pub struct Emulator {
     pub register_int: [u64; 32],
 }
 
+#[allow(unused)]
 impl Emulator {
     pub fn new() -> Emulator {
         Emulator {
@@ -12,6 +13,7 @@ impl Emulator {
 }
 
 #[derive(Debug)]
+/// We want a single value to have multiple names, but Rust's enum does not allow it, so I implement it as a function.
 pub enum Registers {}
 
 #[allow(unused)]
